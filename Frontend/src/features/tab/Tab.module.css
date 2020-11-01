@@ -1,0 +1,28 @@
+.cancel:hover {
+  transform: scale(1.1);
+}
+
+grid-table > slot > span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+grid-table > slot > span:hover {
+  background-color: rgba(167, 159, 159, 0.112);
+}
+
+grid-table {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-content: baseline;
+}
+
+.form--action {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.form {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}

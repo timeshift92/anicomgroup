@@ -1,0 +1,15 @@
+.form--field {
+  display: flex;
+  flex-flow: column;
+}
+.form--field > label {
+  justify-self: start;
+  align-self: start;
+}
+.form--field > input {
+  height: 30px;
+  margin: 5px 0;
+}
+.error {
+  color: red;
+}

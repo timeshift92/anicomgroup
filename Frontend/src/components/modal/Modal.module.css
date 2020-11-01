@@ -1,0 +1,50 @@
+.modal {
+  position: absolute;
+  background-color: white;
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  display: grid;
+  grid-template-rows: 50px 1fr;
+  padding: 5px;
+  min-width: 20%;
+  min-height: 70vh;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #d2d1d34f;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.close {
+  cursor: pointer;
+  justify-self: end;
+  padding: 10px;
+}
+.close:hover {
+  transform: scale(1.12);
+}
+.content {
+  text-align: center;
+  display: grid;
+  grid-template-rows: 40px 1fr;
+}
+
+.add {
+  justify-self: center;
+  background-color: #6ee064;
+  padding: 10px;
+  border: 1px solid #6ee064;
+  cursor: pointer;
+}
+.add:hover {
+  transform: scale(1.01);
+}
+.modal-main {
+  display: contents;
+}

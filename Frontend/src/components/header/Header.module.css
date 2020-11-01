@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 25px 0px;
+  align-items: baseline;
+}
+
+.navbar {
+  display: flex;
+}
+.navbar li {
+  list-style: none;
+  padding: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.navbar li.active {
+  background-color: #e5e5e5;
+}

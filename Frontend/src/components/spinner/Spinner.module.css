@@ -1,0 +1,32 @@
+@keyframes pulse {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0.25;
+    transform: scale(0.75);
+  }
+}
+.spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.spinner--pulse-bubble {
+  width: 20px;
+  height: 20px;
+  border-radius: 50;
+  background-color: aquamarine;
+}
+.spinner--pulse-bubble-1 {
+  animation: pulse 0.4s ease 0s infinite alternate;
+}
+.spinner--pulse-bubble-2 {
+  animation: pulse 0.4s ease 0.2s infinite alternate;
+}
+.spinner--pulse-bubble-3 {
+  animation: pulse 0.4s ease 0.4s infinite alternate;
+}

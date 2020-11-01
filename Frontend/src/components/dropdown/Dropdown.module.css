@@ -1,0 +1,30 @@
+.dropdown {
+  position: relative;
+  min-width: 150px;
+}
+
+.dropdown--wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.opened {
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 0.025);
+  border-top: 0;
+  background-color: white;
+  width: 100%;
+  padding: 0.5rem 0 0.5rem 0;
+}
+.opened > div {
+  padding: 5px;
+}
+.closed {
+  display: none;
+}
+
+.action {
+  cursor: pointer;
+}
+.action > .opened :hover {
+  background-color: bisque;
+}

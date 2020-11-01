@@ -1,0 +1,32 @@
+my-button {
+  cursor: pointer;
+}
+
+my-button[type="add"] {
+  justify-self: center;
+  background-color: #6ee064;
+  padding: 10px;
+  border: 1px solid #6ee064;
+  cursor: pointer;
+}
+my-button :hover {
+  transform: scale(1.01);
+}
+
+my-button[type='update'] {
+  color: #5fa8ff;
+}
+my-button[type='delete'] {
+  color: #f38b8b;
+}
+my-button[type='accept'] {
+  color: #65d585;
+}
+my-button[type='cancel'] {
+  text-decoration: underline;
+  color: #5fa8ff;
+}
+my-button[inline="true"] {
+  border: 0;
+  background-color: transparent;
+}
